@@ -1,7 +1,6 @@
 package br.com.dio;
 
 import br.com.dio.ui.custom.screen.MainScreen;
-
 import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toMap;
@@ -14,5 +13,4 @@ public class UIMain {
         var mainsScreen = new MainScreen(gameConfig);
         mainsScreen.buildMainScreen();
     }
-
 }
